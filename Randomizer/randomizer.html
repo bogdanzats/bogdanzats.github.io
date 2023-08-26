@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="randomizer.css">
+</head>
+<body>
+    <h1>Random number generator</h1>
+
+    <form name="generator">
+      <div class="inputs">
+        <input type="number" id="min" placeholder="from:" min="0">
+        <input type="number" id="max" placeholder="to:" min="0">
+        <input type="number" id="amount" placeholder="Amount:" min="0">
+      </div>
+      <input type="checkbox" class="checkbox"> Exclude repetition
+      <br><br>
+      <input type="button" id="btn" value="Generate">
+    </form>
+    <div class="result"></div>
+
+    <script src="randomizer.js"></script>
+</body>
+</html>
